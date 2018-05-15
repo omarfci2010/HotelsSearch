@@ -24,8 +24,8 @@ and allow sorting by:
 # Examples
 
 -Searching a hotel name with sorting by price 
-   
-             .api/hotels/search/name=Rotana Hotel&pricesorting
+  
+    .api/hotels/search/name=Rotana Hotel&pricesorting
             
      
 
@@ -123,6 +123,78 @@ and allow sorting by:
                 (
                     [from] => 10-10-2020
                     [to] => 12-10-2020
+                    
+-Searching a hotel by price rang with sorting by price
+
+             .api/hotels/search/minprice=70&maxprice=100&pricesorting
 
 
+    [name] => Concorde Hotel
+    [price] => 79.4
+    [city] => Manila
+    [availability] => Array
+        (
+            [0] => Array
+                (
+                    [from] => 10-10-2020
+                    [to] => 19-10-2020
+                )
+
+            [1] => Array
+                (
+                    [from] => 22-10-2020
+                    [to] => 22-11-2020
+                )
+
+            [2] => Array
+                (
+                    [from] => 03-12-2020
+                    [to] => 20-12-2020
+                )
+
+        )
+
+
+
+    [name] => Rotana Hotel
+    [price] => 80.6
+    [city] => cairo
+    [availability] => Array
+        (
+        
+        
+   -Searching a hotel by price rang with sorting by price
+
+             .api/hotels/search/minprice=70&maxprice=100&nosorting
+             
+             
+    [name] => Rotana Hotel
+    [price] => 80.6
+    [city] => cairo
+    [availability] => Array
+        (
+            [0] => Array
+                (
+                    [from] => 10-10-2020
+                    [to] => 12-10-2020
+                )
+
+            [1] => Array
+                (
+                    [from] => 25-10-2020
+                    [to] => 10-11-2020
+                )
+
+            [2] => Array
+                (
+                    [from] => 05-12-2020
+                    [to] => 18-12-2020
+                )
+
+        )
+
+    [name] => Le Meridien
+    [price] => 89.6
+    [city] => london
+    [availability] => Array
              
