@@ -25,7 +25,7 @@ and allow sorting by:
 
 -Searching a hotel name with sorting by price 
   
-    .api/hotels/search/name=Rotana Hotel&pricesorting
+    /api/hotels/search/name=Rotana Hotel&pricesorting
             
      
 
@@ -54,7 +54,7 @@ and allow sorting by:
 
   -Searching a hotel by date rang with sorting by price 
      
-     .api/hotels/search/datefrom=10-10-2020&dateto=20-10-2020&pricesorting
+     /api/hotels/search/datefrom=10-10-2020&dateto=20-10-2020&pricesorting
    
     [name] => Concorde Hotel
     [price] => 79.4
@@ -86,7 +86,7 @@ and allow sorting by:
         
    -Searching a hotel by date rang with sorting by name 
      
-     .api/hotels/search/datefrom=10-10-2020&dateto=20-10-2020&namesorting
+     /api/hotels/search/datefrom=10-10-2020&dateto=20-10-2020&namesorting
           
                       
     [name] => Media One Hotel
@@ -126,7 +126,7 @@ and allow sorting by:
                     
 -Searching a hotel by price rang with sorting by price
 
-             .api/hotels/search/minprice=70&maxprice=100&pricesorting
+             /api/hotels/search/minprice=70&maxprice=100&pricesorting
 
 
     [name] => Concorde Hotel
@@ -165,7 +165,7 @@ and allow sorting by:
         
    -Searching a hotel by price rang with sorting by price
 
-             .api/hotels/search/minprice=70&maxprice=100&nosorting
+             /api/hotels/search/minprice=70&maxprice=100&nosorting
              
              
     [name] => Rotana Hotel
